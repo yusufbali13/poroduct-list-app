@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="card">
+    <div className="cards">
       <div className="date">
         <h3>{product.price} $</h3>
       </div>

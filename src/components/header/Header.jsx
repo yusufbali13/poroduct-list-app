@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = ({ categories, category, setCategory }) => {
   return (
     <div className="header">
