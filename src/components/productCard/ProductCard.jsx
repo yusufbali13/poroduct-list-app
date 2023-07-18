@@ -1,13 +1,16 @@
-import Card from "react-bootstrap/Card";
+import React from "react";
+
 const ProductCard = ({ product }) => {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Body>
-        <Card.Title>{product.price}</Card.Title>
-        <Card.Img className="w-25" variant="top" src={product.image} />
-        <Card.Text>{product.title}</Card.Text>
-      </Card.Body>
-    </Card>
+    <div className="card">
+      <div className="date">
+        <h3>{product.price} $</h3>
+      </div>
+      <img src={product.image} alt="" />
+      <div className="card-over">
+        <h2 className="title">{product.title}</h2>
+      </div>
+    </div>
   );
 };
 

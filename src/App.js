@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/header/Header";
 import { categories, products } from "./helper/data";
 import ProductCard from "./components/productCard/ProductCard";
+import "./app.css";
 
 function App() {
   const [category, setCategory] = useState("all");
