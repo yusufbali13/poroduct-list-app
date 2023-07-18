@@ -89,7 +89,6 @@ code {
 }
 
 .card-container .cards .date {
-  /* background-color: rgba(0, 0, 0, 0.8); */
   background-color: gray;
   border-radius: 10px;
   color: #fff;
@@ -123,8 +122,8 @@ code {
   padding: 1rem;
   position: absolute;
   text-align: justify;
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
   transition: -webkit-transform 0.7s ease-in-out;
   transition: transform 0.7s ease-in-out;
   transition: transform 0.7s ease-in-out, -webkit-transform 0.7s ease-in-out;
